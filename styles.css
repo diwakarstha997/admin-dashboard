@@ -15,9 +15,6 @@
     background-color: #1992d4;
     color: white;
     font-weight: bold;
-
-    display: grid;
-    gap: 50px;
 }
 
 .sidebar ul {
@@ -26,11 +23,13 @@
 
 .menu, .account-setting {
     padding-left: 40px;
+    margin-bottom: 50px;
 }
 
 .sidebar-title {
     padding-left: 20px;
     margin-top: 20px;
+    margin-bottom: 50px;
 
     display: grid;
     grid-template-columns: 1fr 9fr;
