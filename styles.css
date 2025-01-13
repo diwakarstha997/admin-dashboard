@@ -169,7 +169,34 @@
     font-weight: bold;
 }
 
+/* Main Section */
 .main {
     border: 1px solid magenta;
+    padding: 20px 10px;
     grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+}
+
+.main > div {
+    border: 1px solid black;
+}
+
+.main > .projects {
+    grid-row: 1 / 3;
+}
+
+.card-wrappers {
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card-wrappers > .card {
+    border: 1px solid red;
+    min-height: 200px;
 }
