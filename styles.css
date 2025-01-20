@@ -184,6 +184,7 @@
     border: 1px solid black;
 }
 
+/* projects section css */
 .main > .projects {
     grid-row: 1 / 3;
     padding: 20px;
@@ -205,11 +206,6 @@
     padding: 30px;
 
     position: relative;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px; */
 }
 
 .card > .card-actions {
@@ -219,4 +215,28 @@
 
     display: grid;
     grid-template-columns: repeat(3, 50px);
+}
+
+/* Announcement section css  */
+.announcements {
+    padding: 20px;
+}
+
+.announcement-card-wrapper {
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.274);
+    margin-top: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.announcement-card {
+    padding: 5px;
+}
+
+.announcement-card-text {
+    font-size: 14px; 
 }
