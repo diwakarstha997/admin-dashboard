@@ -11,7 +11,6 @@
 
 /* Sidebar CSS */
 .sidebar {
-    border: 1px solid red;
     grid-row: 1 / 6;
     background-color: #1992d4;
     color: white;
@@ -61,7 +60,6 @@
 
 /* Topbar CSS */
 .topbar {
-    border: 1px solid green;
     padding-top: 10px;
     padding-bottom: 10px;
     grid-column: 2 / 3;
@@ -73,7 +71,6 @@
 }
 
 .search {
-
     display: grid;
     grid-template-columns: 1fr 9fr;
     gap: 20px;
@@ -118,7 +115,6 @@
 
 /* Action bar CSS */
 .actionbar {
-    border: 1px solid blue;
     padding-top: 10px;
     padding-bottom: 10px;
     grid-row: 2 / 3;
@@ -172,16 +168,11 @@
 
 /* Main Section */
 .main {
-    border: 1px solid magenta;
     padding: 20px 10px;
     grid-column: 2 / 3;
 
     display: grid;
     grid-template-columns: 4fr 1fr;
-}
-
-.main > div {
-    border: 1px solid black;
 }
 
 /* projects section css */
