@@ -117,6 +117,7 @@
 .actionbar {
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.274);
     grid-row: 2 / 3;
 
     display: grid;
@@ -168,6 +169,7 @@
 
 /* Main Section */
 .main {
+    background-color: rgba(211, 211, 211, 0.575);
     padding: 20px 10px;
     grid-column: 2 / 3;
 
@@ -190,6 +192,7 @@
 }
 
 .card-wrappers > .card {
+    background-color: white;
     border-left: 10px solid rgb(233, 198, 0);
     border-radius: 10px;
     box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.274);
@@ -214,6 +217,7 @@
 }
 
 .announcement-card-wrapper {
+    background-color: white;
     border-radius: 10px;
     box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.274);
     margin-top: 20px;
@@ -238,6 +242,7 @@
 }
 
 .trending-profile-wrapper {
+    background-color: white;
     border-radius: 10px;
     box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.274);
     margin-top: 20px;
